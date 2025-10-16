@@ -1,4 +1,6 @@
-ref_id,framework_name,ai_technique,auditing_stage,key_features,performance
-1,,,,,,
-2,,,,,,
-3,,,,,,
+sub_theme,accuracy_pct,explainability,compliance_focus
+Compliance Frameworks,90.3,3.0,Medium
+General Auditing,90.0,3.0,Medium
+Generative AI Risks,90.0,3.0,Low
+Threat Detection,90.9,3.0,Medium
+XAI & Ethics,90.0,5.0,High

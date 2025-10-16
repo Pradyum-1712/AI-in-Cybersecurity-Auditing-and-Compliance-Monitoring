@@ -5,33 +5,9 @@ import os  # To create dirs if needed
 # Create data/ if not exists
 os.makedirs('data', exist_ok=True)
 
-# Load your JSON
+# Load the JSON with sub_themes already assigned
 with open('summaries/paper_summaries.json', 'r') as f:
     data = json.load(f)
-
-# Assign sub_theme function
-def assign_sub_theme(title, key_contrib):
-    text = (title.lower() + ' ' + key_contrib.lower())
-    if any(word in text for word in ['threat', 'detection', 'anomaly', 'fraud', 'soc']):
-        return 'Threat Detection'
-    elif any(word in text for word in ['compliance', 'framework', 'regulation', 'act', 'standard', 'gdpr', 'nist']):
-        return 'Compliance Frameworks'
-    elif any(word in text for word in ['explainable', 'xai', 'bias', 'ethics', 'fairness', 'transparency']):
-        return 'XAI & Ethics'
-    elif any(word in text for word in ['agentic', 'autonomous', 'multi-agent']):
-        return 'Agentic AI'
-    elif any(word in text for word in ['generative', 'genai']):
-        return 'Generative AI Risks'
-    else:
-        return 'General Auditing'
-
-# Add sub_theme
-for d in data:
-    d['sub_theme'] = assign_sub_theme(d['title'], d['key_contrib'])
-
-# Save updated JSON (optional)
-with open('summaries/paper_summaries_updated.json', 'w') as f:
-    json.dump(data, f, indent=2)
 
 # Generate CSVs
 df_meta = pd.DataFrame([{

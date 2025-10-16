@@ -1,0 +1,10 @@
+keyword,mentions,percentage,gap_level
+ethics,2,5.0,High Gap
+bias,2,5.0,High Gap
+blockchain,2,5.0,High Gap
+adversarial,0,0.0,
+sme,4,10.0,High Gap
+quantum,0,0.0,
+federated,0,0.0,
+audit,33,82.5,Low Gap
+compliance,31,77.5,Low Gap
