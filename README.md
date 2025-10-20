@@ -1,3 +1,4 @@
+
 # AI in Cybersecurity Auditing and Compliance: Systematic Literature Review
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
@@ -34,7 +35,8 @@ AI-in-Cybersecurity-Auditing-and-Compliance-Monitoring/
 4. Run: `jupyter notebook analysis/` to run the analysis notebooks
 
 ## Progress Video
-[Loom Link](https://www.loom.com/share/[your-link]) – Group demo of pipeline, themes, gaps.
+[[Loom Link](https://www.loom.com/share/[your-link]) – Group demo of pipeline, themes, gaps.
+](https://www.loom.com/share/049d01882b9c4be6932d9547b4efcc75)
 
 ## Group
 - **Members**: [Jerusalem Mesfin Tasew] ([jtasew@hawk.illinoistech.edu]), [Partner Name] ([email])
