@@ -39,5 +39,4 @@ AI-in-Cybersecurity-Auditing-and-Compliance-Monitoring/
 ](https://www.loom.com/share/049d01882b9c4be6932d9547b4efcc75)
 
 ## Group
-- **Members**: [Jerusalem Mesfin Tasew] ([jtasew@hawk.illinoistech.edu]), [Partner Name] ([email])
-- **Course**: Cyber Security Management, Fall 2025
+- **Members**: [Jerusalem Mesfin Tasew] ([jtasew@hawk.illinoistech.edu]), [Pradyum samal] ([Psamal@hawk.illinois.tech.edu])
